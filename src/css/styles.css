@@ -30,6 +30,7 @@
     background-repeat: no-repeat, no-repeat;
     background-size: 28%, auto;
     background-color: white;
+    border-radius: 50%, 40%;
     /* background-position: 85% 40% !important; */
 }
 
