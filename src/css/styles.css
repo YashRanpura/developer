@@ -1,0 +1,47 @@
+.custom-navbar {
+    box-shadow: 0px 0px 3px 4px #6969694f;
+    font-family: calibri;
+    font-size: 17px;
+}
+
+.custom-navbar .custom-nav li a:active {
+    color: green !important;
+}
+
+.custom-navbar .custom-nav li a {
+    border-bottom: 2px solid white;
+    transition-duration: .3s;
+}
+
+.custom-navbar .custom-nav li a:hover {
+    color: #ec5b53 !important;
+    transition-duration: .3s;
+    border-bottom: 2px solid #ec5b53;
+}
+
+.navbar-toggler {
+    border: 0px !important;
+}
+
+.main-content {
+    min-height: 100%;
+    background-size: 30% !important;
+    background-repeat: no-repeat !important;
+    background-blend-mode: multiply;
+    background-position: 85% !important;
+    background: url('../../images/yash.jpg') rgb(215, 230, 245);
+}
+
+.main-content .tagline {
+    color: #ec5b53;
+}
+
+.main-content .title-name {
+    font-family: cambria;
+    color: #002d5b;
+    font-size: 46px;
+}
+
+.custom-line-height {
+    line-height: 2em;
+}
