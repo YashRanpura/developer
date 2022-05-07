@@ -24,12 +24,13 @@
 }
 
 .main-content {
-    min-height: 100%;
-    background-size: 30% !important;
-    background-repeat: no-repeat !important;
+    background-image: url('../../images/yash.jpg'), url('../../images/banner.png');
+    background-position: 87% bottom, left;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 28%, auto;
+    background-color: white;
     background-blend-mode: multiply;
-    background-position: 85% !important;
-    background: url('../../images/yash.jpg') rgb(215, 230, 245);
+    /* background-position: 85% 40% !important; */
 }
 
 .main-content .tagline {
