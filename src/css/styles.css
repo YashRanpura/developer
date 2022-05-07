@@ -24,12 +24,12 @@
 }
 
 .main-content {
+    border-bottom: 2px solid #ec5b53;
     background-image: url('../../images/yash.jpg'), url('../../images/banner.png');
     background-position: 87% bottom, left;
     background-repeat: no-repeat, no-repeat;
     background-size: 28%, auto;
     background-color: white;
-    background-blend-mode: multiply;
     /* background-position: 85% 40% !important; */
 }
 
