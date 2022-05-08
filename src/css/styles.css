@@ -1,3 +1,6 @@
+.brand-name{
+    color:#002d5b !important;
+}
 .custom-navbar {
     box-shadow: 0px 0px 3px 4px #6969694f;
     font-family: calibri;
@@ -11,6 +14,7 @@
 .custom-navbar .custom-nav li a {
     border-bottom: 2px solid white;
     transition-duration: .3s;
+    color: #002d5b !important;
 }
 
 .custom-navbar .custom-nav li a:hover {
@@ -26,7 +30,7 @@
 .main-content {
     border-bottom: 2px solid #ec5b53;
     background-image: url('../../images/yash.jpg'), url('../../images/banner.png');
-    background-position: 87% bottom, left;
+    background-position: 87%, left;
     background-repeat: no-repeat, no-repeat;
     background-size: 28%, auto;
     background-color: white;
@@ -38,12 +42,54 @@
     color: #ec5b53;
 }
 
+.color-primary{
+    color: #002d5b;
+}
+
 .main-content .title-name {
     font-family: cambria;
-    color: #002d5b;
-    font-size: 46px;
+    font-size: 43px;
 }
 
 .custom-line-height {
     line-height: 2em;
+    font-size: 14px;
+}
+
+.about-section .aboutmyself{
+    font-size: 25px;
+}
+
+.tools-section .tools-title{
+    font-size: 20px;
+}
+
+.progress{
+    height: 15px !important;
+    padding: 4px 5px;
+    border-radius: 30px !important;
+    background-color: #002e5bd3 !important;
+}
+
+.progress-bar{
+    border-radius: 30px;
+    background-color: #ec5b53 !important;
+}
+
+.skill-label a{
+    background: white;
+    padding: 2px 15px;
+    border: 1px solid #ec5b53;
+    color: black;
+    border-radius: 3px;
+    transition-duration: .5s;
+}
+.skill-label a:hover
+{
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #ec5b53;
+    color: white;
+    transition-duration: .3s;
+    box-shadow: 0px 0px 3px 2px silver;
 }
