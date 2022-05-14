@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 .brand-name {
     color: #002d5b !important;
 }
@@ -28,15 +31,19 @@
     border: 0px !important;
 }
 
+img{
+    border-radius: 50%;
+    border: 2px solid #ec5b53 !important;
+    padding: 2px;
+    width: 250px;
+}
+
 .main-content {
     border-bottom: 2px solid #ec5b53;
-    background-image: url('../../images/yash.jpg'), url('../../images/banner.png');
-    background-position: 87%, left;
-    background-repeat: no-repeat, no-repeat;
-    background-size: 28%, auto;
-    background-color: white;
-    border-radius: 50%, 40%;
-    /* background-position: 85% 40% !important; */
+    background-image: url('../../images/banner.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 
 .main-content .tagline {
@@ -110,7 +117,7 @@
 @media only screen and (min-width: 481px) and (max-width: 768px) {
 
     /* For tablet: */
-    .main-content .tagline {
+    /* .main-content .tagline {
         font-size: 11px !important;
     }
 
@@ -141,7 +148,7 @@
     #aboutsection,
     .tools-section {
         display: block !important;
-    }
+    } */
 
 }
 
