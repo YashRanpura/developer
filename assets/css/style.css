@@ -571,7 +571,7 @@ section {
   z-index: -1;
 }
 .services .icon-box:hover::before {
-  background: #d43076;
+  background: rgba(150, 150, 150, 0.275);
   height: 100%;
   border-radius: 0px;
 }
@@ -605,7 +605,7 @@ section {
   margin-bottom: 0;
 }
 .services .icon-box:hover .title a, .services .icon-box:hover .description {
-  color: #fff;
+  /* color: #fff; */
 }
 .services .icon-box:hover .icon {
   background: #fff;
